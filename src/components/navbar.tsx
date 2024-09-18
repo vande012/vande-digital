@@ -36,7 +36,7 @@ const Navbar = () => {
   }, [lastScrollY]);
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 transition-transform duration-300 ease-in-out ${isVisible ? 'translate-y-0' : '-translate-y-full'} flex justify-between items-center p-4 bg-white shadow-md z-50`}>
+    <nav className={` fixed top-0 left-0 right-0 transition-transform duration-300 ease-in-out ${isVisible ? 'translate-y-0' : '-translate-y-full'} flex justify-between items-center p-4 shadow-md z-50 thin-border border-b border-gray-500 backdrop-blur-lg`}>
       {/* Left Button */}
       <Button variant="outline" size="icon">
         <Menu className="h-4 w-4" />
